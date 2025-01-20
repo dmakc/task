@@ -75,8 +75,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = TEST_DATABASE if os.getenv('TEST_DATABASE', default=True) == 'False' else PROD_DATABASE
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
